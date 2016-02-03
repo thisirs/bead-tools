@@ -1,5 +1,10 @@
 #!/usr/bin/python2
 
+"""This script unpacks sprites from an image file and store them in a
+subdirectory.
+
+"""
+
 import os
 import argparse
 import numpy as np
@@ -8,7 +13,7 @@ import cv2
 # For .gif files
 from PIL import Image
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('file', help="name of the image file to extract from")
 parser.add_argument("-d",
                     "--directory",
