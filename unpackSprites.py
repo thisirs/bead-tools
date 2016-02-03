@@ -137,7 +137,9 @@ def by_size(x):
 def valid_sprite(i, cnts, hierarchy):
     """A valid sprite complies with fixed size and its parent is not a
     sprite."""
-    return by_size(cnts[i]) and not (hierarchy[0, i, 3] != -1 and by_size(cnts[hierarchy[0, i, 3]]))
+    return by_size(cnts[i]) and \
+        not (hierarchy[0, i, 3] != -1 and
+             by_size(cnts[hierarchy[0, i, 3]]))
 
 cnts = [c for i, c in enumerate(cnts) if valid_sprite(i, cnts, hierarchy)]
 
