@@ -1,9 +1,7 @@
 #!/usr/bin/python2
 
 """This script unpacks sprites from an image file and store them in a
-subdirectory.
-
-"""
+subdirectory."""
 
 import os
 import argparse
