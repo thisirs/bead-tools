@@ -1,6 +1,9 @@
 #! /usr/bin/env python2
 # -*- coding: utf-8 -*-
 
+"""This script converts any input image file in a corresponding bead
+image file using some predefined palettes."""
+
 import yaml
 import re
 
@@ -164,7 +167,8 @@ if __name__ == '__main__':
     # Multiline help line
     from argparse import RawTextHelpFormatter
 
-    parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter,
+                                     description=__doc__)
     parser.add_argument('files',
                         nargs='+',
                         help="name of image files")
