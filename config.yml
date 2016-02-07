@@ -1,0 +1,573 @@
+---
+default: 'Perler'
+locale: en
+palettes:
+  Perler:
+    description: Full Perler palette
+    colors:
+      - code: P01
+        value: "#F1F1F1"
+      - code: P02
+        value: "#E0DEA9"
+      - code: P03
+        value: "#ECD800"
+      - code: P04
+        value: "#ED6120"
+      - code: P05
+        value: "#BF2E40"
+      - code: P06
+        value: "#DD669B"
+      - code: P07
+        value: "#604089"
+      - code: P08
+        value: "#2B3F87"
+      - code: P10
+        value: "#1C753E"
+      - code: P100
+        value: "#F97E79"
+      - code: P101
+        value: "#7AAEA2"
+      - code: P102
+        value: "#84B791"
+      - code: P103
+        value: "#CAC033"
+      - code: P104
+        value: "#D7A8A2"
+      - code: P105
+        value: "#777B81"
+      - code: P11
+        value: "#56BA9F"
+      - code: P12
+        value: "#513931"
+      - code: P17
+        value: "#8A8D91"
+      - code: P18
+        value: "#2E2F32"
+      - code: P20
+        value: "#8C372C"
+      - code: P21
+        value: "#815D34"
+      - code: P35
+        value: "#BC9371"
+      - code: P38
+        value: "#F22A7B"
+      - code: P47
+        value: "#DCE002"
+      - code: P48
+        value: "#FF7700"
+      - code: P49
+        value: "#019E43"
+      - code: P50
+        value: "#FF3991"
+      - code: P52
+        value: "#5390D1"
+      - code: P53
+        value: "#76C882"
+      - code: P54
+        value: "#8A72C1"
+      - code: P56
+        value: "#FEF875"
+      - code: P57
+        value: "#F1AA0C"
+      - code: P58
+        value: "#93C8D4"
+      - code: P59
+        value: "#FF3851"
+      - code: P60
+        value: "#A24B9C"
+      - code: P61
+        value: "#6CBE13"
+      - code: P62
+        value: "#2B89C6"
+      - code: P63
+        value: "#FF8285"
+      - code: P69
+        value: "#3370C0"
+      - code: P70
+        value: "#647CBE"
+      - code: P75
+        value: "#BEC696"
+      - code: P79
+        value: "#F6B3DD"
+      - code: P80
+        value: "#4FAD42"
+      - code: P80
+        value: "#EEBAB2"
+      - code: P83
+        value: "#E44892"
+      - code: P85
+        value: "#BB7634"
+      - code: P88
+        value: "#A53061"
+      - code: P90
+        value: "#D48437"
+      - code: P91
+        value: "#067C81"
+      - code: P92
+        value: "#4D5156"
+      - code: P93
+        value: "#8297D9"
+      - code: P96
+        value: "#803245"
+      - code: P97
+        value: "#BDDA01"
+      - code: P98
+        value: "#E4B690"
+  Nabbi:
+    description: Full Nabbi palette
+    colors:
+      - code: N01
+        value: "#3A3D41"
+      - code: N02
+        value: "#50443B"
+      - code: N03
+        value: "#5A3E36"
+      - code: N04
+        value: "#813547"
+      - code: N05
+        value: "#A76224"
+      - code: N06
+        value: "#AD967E"
+      - code: N07
+        value: "#EEB182"
+      - code: N08
+        value: "#8D8B7F"
+      - code: N09
+        value: "#2F4A39"
+      - code: N10
+        value: "#D3CBCB"
+      - code: N11
+        value: "#644591"
+      - code: N12
+        value: "#E2D0BF"
+      - code: N13
+        value: "#F3601B"
+      - code: N14
+        value: "#F9CA00"
+      - code: N15
+        value: "#F4F4F3"
+      - code: N16
+        value: "#297A3B"
+      - code: N17
+        value: "#3B75CB"
+      - code: N18
+        value: "#E1B4AB"
+      - code: N19
+        value: "#DF2638"
+      - code: N20
+        value: "#B58B69"
+      - code: N21
+        value: "#F5EC8D"
+      - code: N22
+        value: "#48AF4F"
+      - code: N23
+        value: "#71A3E6"
+      - code: N24
+        value: "#B6A0DB"
+      - code: N25
+        value: "#EE6A97"
+      - code: N26
+        value: "#FCA879"
+      - code: N27
+        value: "#875F52"
+      - code: N28
+        value: "#A7C6F1"
+      - code: N29
+        value: "#EE9527"
+      - code: N30
+        value: "#C7BF5E"
+  Full HAMA palette:
+    description: Full HAMA palette
+    colors:
+      - code: H01
+        value: "#ECEDED"
+      - code: H02
+        value: "#F0E8B9"
+      - code: H03
+        value: "#F0B901"
+      - code: H04
+        value: "#E64F27"
+      - code: H05
+        value: "#B63136"
+      - code: H06
+        value: "#E1889F"
+      - code: H07
+        value: "#694A82"
+      - code: H08
+        value: "#2C4690"
+      - code: H09
+        value: "#305CB0"
+      - code: H10
+        value: "#256847"
+      - code: H11
+        value: "#49AE89"
+      - code: H12
+        value: "#534137"
+      - code: H13
+        value: "#C02435"
+      - code: H14
+        value: "#e8bf10"
+      - code: H15
+        value: "#0881c6"
+      - code: H16
+        value: "#37B876"
+      - code: H17
+        value: "#83888A"
+      - code: H18
+        value: "#2E2F31"
+      - code: H19
+        value: "#D8D2CE"
+      - code: H20
+        value: "#7F332A"
+      - code: H21
+        value: "#A5693F"
+      - code: H22
+        value: "#A52D36"
+      - code: H24
+        value: "#683E9A"
+      - code: H25
+        value: "#87593D"
+      - code: H26
+        value: "#DE9B90"
+      - code: H27
+        value: "#DEB48B"
+      - code: H28
+        value: "#363F38"
+      - code: H29
+        value: "#B9395E"
+      - code: H30
+        value: "#592F38"
+      - code: H31
+        value: "#6797AE"
+      - code: H32
+        value: "#FF208D"
+      - code: H33
+        value: "#FF3956"
+      - code: H34
+        value: "#E5EF13"
+      - code: H35
+        value: "#FF2833"
+      - code: H36
+        value: "#2353B0"
+      - code: H37
+        value: "#06B73C"
+      - code: H38
+        value: "#FD8600"
+      - code: H39
+        value: "#F1F21C"
+      - code: H40
+        value: "#FE630B"
+      - code: H41
+        value: "#2659B2"
+      - code: H42
+        value: "#0CBD51"
+      - code: H43
+        value: "#F0EA37"
+      - code: H44
+        value: "#EE6972"
+      - code: H45
+        value: "#886DB9"
+      - code: H46
+        value: "#629ED7"
+      - code: H47
+        value: "#83CB70"
+      - code: H48
+        value: "#CF70B7"
+      - code: H49
+        value: "#4998BC"
+      - code: H55
+        value: "#CBD3C7"
+      - code: H56
+        value: "#CBABA4"
+      - code: H57
+        value: "#AABFCC"
+      - code: H60
+        value: "#E19318"
+      # - code: H61
+      #   value:
+      # - code: H62
+      #   value:
+      # - code: H63
+      #   value:
+      # - code: H64
+      #   value:
+      - code: H70
+        value: "#848F9A"
+      - code: H71
+        value: "#505058"
+      - code: H72
+        value: "#E4789E"
+      - code: H73
+        value: "#31A3D1"
+      - code: H74
+        value: "#7F64A8"
+  G00:
+    description: HAMA mix 00
+    colors:
+      - code: H01
+      - code: H03
+      - code: H04
+      - code: H05
+      - code: H06
+      - code: H07
+      - code: H09
+      - code: H10
+      - code: H11
+      - code: H18
+    from:
+      - Full HAMA palette
+  G50:
+    description: HAMA mix 50
+    colors:
+      - code: H43
+      - code: H44
+      - code: H45
+      - code: H46
+      - code: H47
+      - code: H48
+    from:
+      - Full HAMA palette
+  G51:
+    description: HAMA mix 51
+    colors:
+      - code: H32
+      - code: H34
+      - code: H35
+      - code: H36
+      - code: H37
+      - code: H38
+    from:
+      - Full HAMA palette
+  G53:
+    description: HAMA mix 53
+    colors:
+      - code: H13
+      - code: H14
+      - code: H15
+      - code: H16
+      - code: H19
+      - code: H24
+    from:
+      - Full HAMA palette
+  G54:
+    description: HAMA mix 54
+    colors:
+      - code: H13
+      - code: H14
+      - code: H15
+      - code: H16
+      - code: H19
+      - code: H24
+    from:
+      - Full HAMA palette
+  G66:
+    description: HAMA mix 66
+    colors:
+      - code: H01
+      - code: H03
+      - code: H05
+      - code: H08
+      - code: H10
+      - code: H18
+    from:
+      - Full HAMA palette
+  G67:
+    description: HAMA mix 67
+    colors:
+      - code: H01
+      - code: H02
+      - code: H03
+      - code: H04
+      - code: H05
+      - code: H06
+      - code: H07
+      - code: H08
+      - code: H09
+      - code: H10
+      - code: H11
+      - code: H12
+      - code: H17
+      - code: H18
+      - code: H20
+      - code: H21
+      - code: H22
+      - code: H26
+      - code: H27
+      - code: H28
+      - code: H29
+      - code: H30
+      - code: H31
+    from:
+      - Full HAMA palette
+  G68:
+    description: HAMA mix 68
+    colors:
+      - code: H01
+      - code: H02
+      - code: H03
+      - code: H04
+      - code: H05
+      - code: H06
+      - code: H07
+      - code: H08
+      - code: H09
+      - code: H10
+      - code: H11
+      - code: H12
+      - code: H13
+      - code: H14
+      - code: H15
+      - code: H16
+      - code: H17
+      - code: H18
+      - code: H19
+      - code: H20
+      - code: H21
+      - code: H22
+      - code: H24
+      - code: H26
+      - code: H27
+      - code: H28
+      - code: H29
+      - code: H30
+      - code: H31
+      - code: H32
+      - code: H33
+      - code: H34
+      - code: H35
+      - code: H36
+      - code: H37
+      - code: H38
+      - code: H42
+      - code: H43
+      - code: H44
+      - code: H45
+      - code: H46
+      - code: H47
+      - code: H48
+      - code: H49
+      - code: H60
+      - code: H70
+      - code: H71
+      - code: H72
+      - code: H73
+      - code: H74
+    from:
+      - Full HAMA palette
+locales:
+  fr:
+    H01: Blanc
+    H02: Crème
+    H03: Jaune
+    H04: Orange
+    H05: Rouge
+    H06: Rose
+    H07: Violet
+    H08: Bleu
+    H09: Bleu foncé
+    H10: Vert
+    H11: Vert clair
+    H12: Marron
+    H13: Rouge transparent
+    H14: Jaune transparent
+    H15: Bleu transparent
+    H16: Vert transparent
+    H17: Gris
+    H18: Noir
+    H19: Transparent
+    H20: Caramel
+    H21: Marron clair
+    H22: Rouge Noël
+    H24: Violet transparent
+    H26: Chair
+    H27: Beige
+    H28: Vert foncé
+    H29: Lie-de-vin
+    H30: Bordeaux
+    H31: Turquoise
+    H32: Fuchsia néon
+    H33: Cerise
+    H34: Jaune néon
+    H35: Rouge néon
+    H36: Bleu néon
+    H37: Vert néon
+    H38: Orange néon
+    H42: Vert fluorescent
+    H43: Jaune pastel
+    H44: Rouge pastel
+    H45: Violet pastel
+    H46: Bleu pastel
+    H47: Vert pastel
+    H48: Rose pastel
+    H49: Azure
+    H55: Phosphorescent vert
+    H56: Phosphorescent rouge
+    H57: Phosphorescent bleu
+    H60: Marron nounours
+    H61: Or
+    H62: Argent
+    H63: Bronze
+    H64: Perle
+    H70: Gris clair
+    H71: Gris foncé
+    H72: Rose transparent
+    H73: Bleu transparent
+    H74: Lilas transparent
+  en:
+    H01: White
+    H02: Cream
+    H03: Yellow
+    H04: Orange
+    H05: Red
+    H06: Pink
+    H07: Purple
+    H08: Blue
+    H09: Light blue
+    H10: Green
+    H11: Light green
+    H12: Brown
+    H13: Translucent red
+    H14: Translucent yellow
+    H15: Translucent blue
+    H16: Translucent green
+    H17: Grey
+    H18: Black
+    H19: Clear
+    H20: Reddish brown
+    H21: Light brown
+    H22: Dark red
+    H24: Translucent purple
+    H26: Flesh
+    H27: Beige
+    H28: Dark green
+    H29: Claret
+    H30: Burgundy
+    H31: Turquoise
+    H32: Neon fuchsia
+    H33: Cerise
+    H34: Neon yellow
+    H35: Neon red
+    H36: Neon blue
+    H37: Neon green
+    H38: Neon orange
+    H42: Fluorescent green
+    H43: Pastel yellow
+    H44: Pastel red
+    H45: Pastel purple
+    H46: Pastel blue
+    H47: Pastel green
+    H48: Pastel pink
+    H49: Azure
+    H55: Glow in the dark green
+    H56: Glow in the dark red
+    H57: Glow in the dark blue
+    H60: Teddybear brown
+    H61: Gold
+    H62: Silver
+    H63: Bronze
+    H64: Pearl
+    H70: Light grey
+    H71: Dark grey
+    H72: Translucent pink
+    H73: Translucent aqua
+    H74: Translucent lilac
