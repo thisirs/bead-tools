@@ -65,6 +65,55 @@ palettes.
 - Easy customization of palettes through configuration file
 - 2 color distances implemented so far
 
+## Examples
+
+The sprite map is taken from the [Spriter Resource](http://www.spriters-resource.com/).
+First extract the sprites from the map:
+```bash
+./unpackSprites.py -m 70 examples/ItemsOverworld.png
+```
+and specify a minimum number of pixels per sprite to avoid false
+positives.
+
+Same thing but resize sprites by a factor of 10:
+```bash
+./unpackSprites.py -m 70 -r 10 --format '{filename}-resized10-{num:0>{length}}.png' examples/ItemsOverworld.png
+```
+
+Next, quantize the sprites with the Perler palette and the two
+available color distances:
+```bash
+./beadifySprite.py -m 10 examples/ItemsOverworld_sprites/ItemsOverworld-??.png
+./beadifySprite.py -m 10 -d rgb examples/ItemsOverworld_sprites/ItemsOverworld-??.png --format '{filename}-{palette}-rgb.{ext}'
+```
+and magnify the resulting sprites.
+
+Compare the results:
+
+Extracted sprites:
+
+![ItemsOverworld-resized10-16.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-16.png)
+![ItemsOverworld-resized10-21.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-21.png)
+![ItemsOverworld-resized10-23.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-23.png)
+![ItemsOverworld-resized10-47.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-47.png)
+![ItemsOverworld-resized10-56.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-56.png)
+
+After quantization with Lab distance:
+
+![ItemsOverworld-16-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-16-Perler.png)
+![ItemsOverworld-21-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-21-Perler.png)
+![ItemsOverworld-23-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-23-Perler.png)
+![ItemsOverworld-47-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-47-Perler.png)
+![ItemsOverworld-56-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-56-Perler.png)
+
+After quantization with RGB distance:
+
+![ItemsOverworld-16-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-16-Perler-rgb.png)
+![ItemsOverworld-21-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-21-Perler-rgb.png)
+![ItemsOverworld-23-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-23-Perler-rgb.png)
+![ItemsOverworld-47-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-47-Perler-rgb.png)
+![ItemsOverworld-56-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-56-Perler-rgb.png)
+
 # Resources
 
 The colors code from Perler, HAMA and Nabbi palette are taken from
