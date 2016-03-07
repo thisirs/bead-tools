@@ -172,6 +172,10 @@ if __name__ == '__main__':
     parser.add_argument('files',
                         nargs='+',
                         help="name of image files")
+    parser.add_argument('-D',
+                        '--directory',
+                        type=str,
+                        help="directory to store image files")
     parser.add_argument("-c",
                         "--config",
                         type=str,
@@ -270,6 +274,11 @@ if __name__ == '__main__':
         s_name, s_ext = os.path.splitext(s_name)
         s_ext = s_ext[1:]
 
+        if args.directory:
+            directory = args.directory
+        else:
+            directory = s_dir
+
         format = args.format
 
         try:
@@ -324,8 +333,9 @@ if __name__ == '__main__':
                         image_beads[ii+magnify*i, jj+magnify*j, :] = (r, g, b, 255)
 
         name = format.format(filename=s_name, ext=s_ext, palette=palette_name)
+        path = os.path.join(directory, name)
         image = Image.fromarray(image_beads)
-        image.save(name)
+        image.save(path)
 
         print('Wrote {0}'.format(name))
 
