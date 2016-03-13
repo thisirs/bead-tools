@@ -92,27 +92,27 @@ Compare the results:
 
 Extracted sprites:
 
-![ItemsOverworld-resized10-16.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-16.png)
-![ItemsOverworld-resized10-21.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-21.png)
-![ItemsOverworld-resized10-23.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-23.png)
-![ItemsOverworld-resized10-47.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-47.png)
-![ItemsOverworld-resized10-56.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-resized10-56.png)
+![ItemsOverworld-resized10-16.png](examples/ItemsOverworld_sprites/ItemsOverworld-resized10-16.png)
+![ItemsOverworld-resized10-21.png](examples/ItemsOverworld_sprites/ItemsOverworld-resized10-21.png)
+![ItemsOverworld-resized10-23.png](examples/ItemsOverworld_sprites/ItemsOverworld-resized10-23.png)
+![ItemsOverworld-resized10-47.png](examples/ItemsOverworld_sprites/ItemsOverworld-resized10-47.png)
+![ItemsOverworld-resized10-56.png](examples/ItemsOverworld_sprites/ItemsOverworld-resized10-56.png)
 
 After quantization with Lab distance:
 
-![ItemsOverworld-16-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-16-Perler.png)
-![ItemsOverworld-21-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-21-Perler.png)
-![ItemsOverworld-23-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-23-Perler.png)
-![ItemsOverworld-47-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-47-Perler.png)
-![ItemsOverworld-56-Perler.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-56-Perler.png)
+![ItemsOverworld-16-Perler.png](examples/ItemsOverworld_sprites/ItemsOverworld-16-Perler.png)
+![ItemsOverworld-21-Perler.png](examples/ItemsOverworld_sprites/ItemsOverworld-21-Perler.png)
+![ItemsOverworld-23-Perler.png](examples/ItemsOverworld_sprites/ItemsOverworld-23-Perler.png)
+![ItemsOverworld-47-Perler.png](examples/ItemsOverworld_sprites/ItemsOverworld-47-Perler.png)
+![ItemsOverworld-56-Perler.png](examples/ItemsOverworld_sprites/ItemsOverworld-56-Perler.png)
 
 After quantization with RGB distance:
 
-![ItemsOverworld-16-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-16-Perler-rgb.png)
-![ItemsOverworld-21-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-21-Perler-rgb.png)
-![ItemsOverworld-23-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-23-Perler-rgb.png)
-![ItemsOverworld-47-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-47-Perler-rgb.png)
-![ItemsOverworld-56-Perler-rgb.png](https://github.com/thisirs/bead-tools/blob/master/examples/ItemsOverworld_sprites/ItemsOverworld-56-Perler-rgb.png)
+![ItemsOverworld-16-Perler-rgb.png](examples/ItemsOverworld_sprites/ItemsOverworld-16-Perler-rgb.png)
+![ItemsOverworld-21-Perler-rgb.png](examples/ItemsOverworld_sprites/ItemsOverworld-21-Perler-rgb.png)
+![ItemsOverworld-23-Perler-rgb.png](examples/ItemsOverworld_sprites/ItemsOverworld-23-Perler-rgb.png)
+![ItemsOverworld-47-Perler-rgb.png](examples/ItemsOverworld_sprites/ItemsOverworld-47-Perler-rgb.png)
+![ItemsOverworld-56-Perler-rgb.png](examples/ItemsOverworld_sprites/ItemsOverworld-56-Perler-rgb.png)
 
 # Resources
 

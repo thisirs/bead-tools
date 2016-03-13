@@ -349,9 +349,15 @@ if __name__ == '__main__':
         print('Wrote {0}'.format(name))
 
         total = 0
+        locale_name = p_data['locale']
+        locale = p_data['locales'][locale_name]
         for c in colors:
             code = c['code']
             if code in beads:
-                print('{0}: {1}'.format(code, beads[code]))
+                name = locale.get(code)
+                if name:
+                    print('{0} {1:<10} {2:>3}'.format(code, '('+name+'):', beads[code]))
+                else:
+                    print('{0:<5} {1:>4}'.format(code+':', beads[code]))
                 total += beads[code]
         print('Total: {0}'.format(total))
