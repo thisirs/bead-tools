@@ -2,6 +2,230 @@
 default: 'Perler'
 locale: en
 palettes:
+  Artkal_HikingDave:
+    description: Artkal palette taken from www.hikingdave.com
+    colors:
+      - code: S01
+        value: "#E9E7E6"
+      - code: S02
+        value: "#FE908F"
+      - code: S03
+        value: "#FEA402"
+      - code: S04
+        value: "#FD6149"
+      - code: S05
+        value: "#DD3444"
+      - code: S06
+        value: "#EB66BE"
+      - code: S07
+        value: "#8E8F93"
+      - code: S08
+        value: "#52CC6A"
+      - code: S09
+        value: "#2A5D62"
+      - code: S10
+        value: "#61A8DF"
+      - code: S11
+        value: "#284492"
+      - code: S12
+        value: "#8962AD"
+      - code: S13
+        value: "#1F1F21"
+      - code: S14
+        value: "#EFDD06"
+      - code: S15
+        value: "#7C4545"
+      - code: S16
+        value: "#78584E"
+      - code: S17
+        value: "#594743"
+      - code: S18
+        value: "#CE9B86"
+      - code: S19
+        value: "#EDAEAC"
+      - code: S20
+        value: "#549160"
+      - code: S21
+        value: "#84C551"
+      - code: S22
+        value: "#554889"
+      - code: S23
+        value: "#7D66AD"
+      - code: S24
+        value: "#396DBC"
+      - code: S25
+        value: "#FE5BBA"
+      - code: S26
+        value: "#FE4289"
+      - code: S27
+        value: "#F0CE01"
+      - code: S28
+        value: "#DF9FCD"
+      - code: S29
+        value: "#F0E24F"
+      - code: S30
+        value: "#A1C6CE"
+      - code: S31
+        value: "#ABDACA"
+      - code: S32
+        value: "#F8C583"
+      - code: S33
+        value: "#C0AEDB"
+      - code: S35
+        value: "#F9BCC1"
+      - code: S36
+        value: "#C86782"
+      - code: S37
+        value: "#84C7C6"
+      - code: S38
+        value: "#A13053"
+      - code: S39
+        value: "#FF834B"
+      - code: S40
+        value: "#FD91D6"
+      - code: S41
+        value: "#9D5B2E"
+      - code: S42
+        value: "#676B73"
+      - code: S43
+        value: "#66676A"
+      - code: S44
+        value: "#A4C8E8"
+      - code: S45
+        value: "#3F989E"
+      - code: S46
+        value: "#A8E42A"
+      - code: S47
+        value: "#9C743C"
+      - code: S48
+        value: "#F6BF05"
+      - code: S49
+        value: "#78315A"
+      - code: S50
+        value: "#FDA47E"
+      - code: S51
+        value: "#F3D9B6"
+      - code: S52
+        value: "#EFE56D"
+      - code: S53
+        value: "#6593DF"
+      - code: S54
+        value: "#1A75D0"
+      - code: S55
+        value: "#A0D589"
+      - code: S56
+        value: "#FE7F50"
+      - code: S57
+        value: "#984E43"
+      - code: S58
+        value: "#AC2C44"
+      - code: S60
+        value: "#A675BF"
+      - code: S61
+        value: "#BBC528"
+      - code: S62
+        value: "#387061"
+      - code: S63
+        value: "#696046"
+      - code: S64
+        value: "#363D5C"
+      - code: S65
+        value: "#F7F839"
+      - code: S66
+        value: "#FD5143"
+      - code: S67
+        value: "#E2C1B2"
+      - code: S68
+        value: "#AF9666"
+      - code: S69
+        value: "#43484E"
+  Perler_HikingDave:
+    description: Perler palette taken from www.hikingdave.com
+    colors:
+      - code: P01
+        value: "#F5F5F5"
+      - code: P02
+        value: "#F0E6C3"
+      - code: P03
+        value: "#FFEB37"
+      - code: P04
+        value: "#FF7350"
+      - code: P05
+        value: "#CD465A"
+      - code: P06
+        value: "#F082AF"
+      - code: P07
+        value: "#785F9B"
+      - code: P08
+        value: "#235091"
+      - code: P09
+        value: "#2D82C8"
+      - code: P10
+        value: "#288C64"
+      - code: P11
+        value: "#4BC3B4"
+      - code: P12
+        value: "#6E5A55"
+      - code: P17
+        value: "#969BA0"
+      - code: P18
+        value: "#0A0A0A"
+      - code: P20
+        value: "#A55A5A"
+      - code: P21
+        value: "#A0825F"
+      - code: P33
+        value: "#FACDC3"
+      - code: P35
+        value: "#CDA587"
+      - code: P38
+        value: "#FF3C82"
+      - code: P52
+        value: "#5AA0CD"
+      - code: P53
+        value: "#87D291"
+      - code: P54
+        value: "#9B87CD"
+      - code: P56
+        value: "#F5F09B"
+      - code: P57
+        value: "#FAC855"
+      - code: P58
+        value: "#A0D7E1"
+      - code: P59
+        value: "#FF5A73"
+      - code: P60
+        value: "#AF5AA0"
+      - code: P61
+        value: "#7DD250"
+      - code: P62
+        value: "#0596CD"
+      - code: P63
+        value: "#FF96A0"
+      - code: P70
+        value: "#557DB9"
+      - code: P79
+        value: "#F5C8E6"
+      - code: P80
+        value: "#73B973"
+      - code: P83
+        value: "#F05FA5"
+      - code: P88
+        value: "#BE4673"
+      - code: P90
+        value: "#F0966E"
+      - code: P91
+        value: "#0096A5"
+      - code: P92
+        value: "#5F6464"
+      - code: P93
+        value: "#8297D9"
+      - code: P96
+        value: "#760228"
+      - code: P97
+        value: "#ACCC04"
+      - code: P98
+        value: "#DBC8AE"
   Perler:
     description: Full Perler palette
     colors:
@@ -571,3 +795,144 @@ locales:
     H72: Translucent pink
     H73: Translucent aqua
     H74: Translucent lilac
+    P01: White
+    P02: Cream
+    P03: Yellow
+    P04: Orange
+    P05: Red
+    P06: Bubble Gum
+    P07: Purple
+    P08: Dark Blue
+    P09: Light Blue
+    P10: Dark Green
+    P11: Light Green
+    P12: Brown
+    P17: Grey
+    P18: Black
+    P20: Rust
+    P21: Light Brown
+    P33: Peach
+    P35: Tan
+    P38: Magenta
+    P52: Pastel Blue
+    P53: Pastel Green
+    P54: Pastel Lavender
+    P56: Pastel Yellow
+    P57: Cheddar
+    P58: Toothpaste
+    P59: Hot Coral
+    P60: Plum
+    P61: Kiwi Lime
+    P62: Turquoise
+    P63: Blush
+    P70: Periwinkle
+    P79: Light Pink
+    P80: Bright Green
+    P83: Pink
+    P88: Raspberry
+    P90: Butterscotch
+    P91: Parrot Green
+    P92: Dark Grey
+    P93: Blueberry Cream
+    P96: Cranapple
+    P97: Prickly Pear
+    P98: Sand
+    P171: Light Grey
+    P179: Evergreen
+    S01: White
+    S02: Salmon
+    S03: Cheese
+    S04: Orange-red
+    S05: Watermelon
+    S06: Deep Pink
+    S07: Soft Grey
+    S08: Grass Green
+    S09: Deep Green
+    S10: Sky Blue
+    S11: Deep Blue
+    S12: Soft Purple
+    S13: Black
+    S14: Yellow
+    S15: Vermilion
+    S16: Coffee
+    S17: Soft Coffee
+    S18: Flesh
+    S19: Pink Flesh
+    S20: Apple Green
+    S21: Citrus Green
+    S22: Deep Purple
+    S23: Purple
+    S24: Blueberry Cream
+    S25: Peach Blossom
+    S26: Rose
+    S27: Egg
+    S28: Soft Pink
+    S29: Soft Yellow
+    S30: Toothpaste
+    S31: Powder Green
+    S32: Yellow Flesh
+    S33: Pale Purple
+    S35: Light Pink
+    S36: Dark Pink
+    S37: Soft Aqua
+    S38: Aubergine
+    S39: Pale Orange
+    S40: Pink
+    S41: Gold
+    S42: Silver
+    S43: Deep Grey
+    S44: Pale Blue
+    S45: Aqua
+    S46: Light Green
+    S47: Earth
+    S48: Golden Yellow
+    S49: Grape
+    S50: Pale Apricot
+    S51: Cream
+    S52: Pale Yellow
+    S53: Turkish Blue
+    S54: Lake Blue
+    S55: Pale Green
+    S56: Soft Coral Red
+    S57: Soft Palm
+    S58: Crimson
+    S60: Powder Purple
+    S61: Banana
+    S62: Deep Green
+    S63: Bronze
+    S64: Navy
+    S65: Fluorescent Yellow
+    S66: Deep Tangerine
+    S67: Pale Skin
+    S68: Cookie
+    S69: Black Ash
+    N01: Black
+    N02: Dark Brown
+    N03: Medium Brown
+    N04: Maroon
+    N05: Caramel
+    N06: Tan
+    N07: Sand
+    N08: Ash Grey
+    N09: Hunter Green
+    N10: Light Grey
+    N11: Purple
+    N12: Ivory
+    N13: Orange
+    N14: Yellow
+    N15: White
+    N16: Green
+    N17: Bright Blue
+    N18: Light Rose
+    N19: Red
+    N20: Light Brown
+    N21: Lt Yellow
+    N22: Lime
+    N23: Medium Blue
+    N24: Lavender
+    N25: Pink
+    N26: Peach
+    N27: Chocolate
+    N28: Sky Blue
+    N29: Golden Orange
+    N30: Kiwi
