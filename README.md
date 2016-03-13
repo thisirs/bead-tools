@@ -116,9 +116,8 @@ After quantization with RGB distance:
 
 # Resources
 
-The colors code from Perler, HAMA and Nabbi palette are taken from
-    <https://docs.google.com/spreadsheets/d/1f988o68HDvk335xXllJD16vxLBuRcmm3vg6U9lVaYpA/edit#gid=0>
+The color codes from Perler, HAMA and Nabbi palettes are taken from
+[this spreadsheet](https://docs.google.com/spreadsheets/d/1f988o68HDvk335xXllJD16vxLBuRcmm3vg6U9lVaYpA/edit#gid=0)
 but some are still missing.
 
-The script `unpackSprites.py` take large parts from this gist:
-    <https://gist.github.com/thevtm/89a74520c7189d30eb3c>
+The script `unpackSprites.py` takes large parts from [this gist](https://gist.github.com/thevtm/89a74520c7189d30eb3c>)
