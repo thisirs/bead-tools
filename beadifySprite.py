@@ -289,14 +289,23 @@ if __name__ == '__main__':
             print(e)
             continue
 
-        (nrows, ncols, nbands) = image.shape
-        if nbands == 3:
+        if len(image.shape) == 2:  # Grayscale image
+            (nrows, ncols) = image.shape
+            nbands = 1
             nimage = np.ones((nrows, ncols, 4))
-            nimage[:, :, :3] = image
+            nimage[:, :, 0] = image
+            nimage[:, :, 1] = image
+            nimage[:, :, 2] = image
             image = nimage
-        elif nbands != 4:
-            print("Not enough numbers of bands, skipping")
-            continue
+        elif len(image.shape) == 3:
+            (nrows, ncols, nbands) = image.shape
+            if nbands == 3:
+                nimage = np.ones((nrows, ncols, 4))
+                nimage[:, :, :3] = image
+                image = nimage
+            elif nbands != 4:
+                print("Not enough numbers of bands, skipping")
+                continue
 
         # Subsample
         fact = args.subsample
