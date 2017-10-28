@@ -122,7 +122,7 @@ imgGray = cv2.cvtColor(imgMask, cv2.COLOR_RGB2GRAY)
 # cv2.imwrite('mask_gray.png', imgGray)
 
 # Find Contours
-cnts, hierarchy = cv2.findContours(imgGray.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+_, cnts, hierarchy = cv2.findContours(imgGray.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 
 print("{0} potential sprites found".format(len(cnts)))
 
@@ -168,7 +168,7 @@ for i, cnt in enumerate(cnts):
 
     # Create contour mask
     mask = cv2.cvtColor(imgBlank.copy(), cv2.COLOR_BGRA2GRAY)
-    cv2.drawContours(mask, cnts, i, 255, thickness=cv2.cv.CV_FILLED)
+    cv2.drawContours(mask, cnts, i, 255, thickness=cv2.FILLED)
 
     # Apply mask to Input Img
     imgCnt = imgBlank.copy()
